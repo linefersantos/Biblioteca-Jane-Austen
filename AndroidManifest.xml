@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app_biblioteca_jane_austen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />
+
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.Tela_splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.Tela_do_livro"
+            android:label="@string/title_activity_tela_do_livro" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.Tela_categoria_livros"
+            android:label="@string/title_activity_tela_categoria_livros" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.Tela_opcoes_livros"
+            android:label="@string/title_activity_tela_opcoes_livros" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.Lista_avaliacoes"
+            android:label="@string/title_activity_lista_avaliacoes" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaMenu_1"
+            android:label="@string/title_activity_tela_menu_1" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaAlterar"
+            android:label="@string/title_activity_tela_alterar"
+            android:windowSoftInputMode="stateHidden"  >  <!-- Não aparece o teclado de primeira -->
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaSobreOApp"
+            android:label="@string/title_activity_tela_sobre_oapp" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaUsuario"
+            android:label="@string/title_activity_tela_usuario" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaCadastro"
+            android:label="@string/title_activity_tela_cadastro"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.app_biblioteca_jane_austen.TelaLogin"
+            android:label="@string/title_activity_tela_login" >
+        </activity>
+    </application>
+
+</manifest>
